@@ -130,7 +130,3 @@ For production deployment:
 3. Build the React app (`npm run build`)
 4. Deploy backend to services like Heroku, Render, or AWS
 5. Deploy frontend to Netlify, Vercel, or static hosting
-
-## 📝 License
-
-This project is licensed under the MIT License.
