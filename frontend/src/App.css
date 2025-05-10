@@ -1,0 +1,85 @@
+/* Main App Styles */
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Task Styles */
+.task-list {
+  margin-top: 20px;
+}
+
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Form Styles */
+.form-control, .form-select {
+  margin-bottom: 15px;
+}
+
+/* Button Styles */
+.btn {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 0.8rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  transform: translateY(-2px);
+}
+
+.nav-link.active {
+  color: #fff !important;
+  font-weight: 500;
+  border-bottom: 2px solid #0d6efd;
+}
+
+/* Mobile menu adjustments */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    padding-top: 1rem;
+  }
+  
+  .nav-link {
+    padding: 0.5rem 0;
+  }
+  
+  .nav-link.active {
+    border-bottom: none;
+    border-left: 3px solid #0d6efd;
+    padding-left: 0.8rem;
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
