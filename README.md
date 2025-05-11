@@ -51,8 +51,8 @@ task-manager/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-repo/task-manager.git
-   cd task-manager
+   git clone https://github.com/csomkar24/taskflow.git
+   cd taskflow
    ```
 
 2. **Set up the backend**
